@@ -1,0 +1,101 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    background-color: #e6f7ff;
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #258cfb;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+}
+
+    #hero img {
+        border-radius: 10px;
+    }
+
+#about, #contact {
+    padding: 20px;
+}
+
+#tours {
+    padding: 20px;
+}
+
+.tour-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tour {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: calc(45% - 20px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+    .tour:hover {
+        transform: scale(1.05);
+    }
+
+    .tour img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+h2, h3, h4 {
+    color: #333;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #258cfb;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #1a6fbf;
+    }
+
+#contact p {
+    margin-bottom: 5px;
+}
